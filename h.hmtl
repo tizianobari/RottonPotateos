@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RottenPotatoes!</title>
+<link rel="stylesheet" media="screen" href="/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" />
+<link rel="stylesheet" media="screen" href="/assets/application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1" />
+<script src="/assets/rails-ujs.self-8944eaf3f9a2615ce7c830a810ed630e296633063af8bb7441d5702fbe3ea597.js?body=1"></script>
+<script src="/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1"></script>
+<script src="/assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1"></script>
+<script src="/assets/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1"></script>
+<script src="/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1"></script>
+<script src="/assets/application.self-eba3cb53a585a0960ade5a8cb94253892706bb20e3f12097a13463b1f12a4528.js?body=1"></script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="K8NknrTirVpiS2CPxBfMlmbfV6dsxTEyXGp5G4H703YiSaKkDZ8bnIQq4kW/36WHaZK7hNauXVcktE5XqWlKFQ==" />
+</head>
+</html>
+<body>
+<div class='alert'></div>
+<div class='alert'></div>
+<form action="/movies" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="3JnMMJYJsWexsJ31pXl/09YFXdNnzpDZKUT57qB7kAB+NXwjOMpYgfhKomscayYVFv/zNuFQ8QppsXpwzlerfw==" />
+<label for="movie_title">Title</label>
+<input type="text" name="movie[title]" id="movie_title" />
+<label for="movie_rating">Rating</label>
+<select name="movie[rating]" id="movie_rating"><option value="G">G</option>
+<option value="PG">PG</option>
+<option value="PG-13">PG-13</option>
+<option value="R">R</option>
+<option value="NC-17">NC-17</option></select>
+<label for="movie_release_date">Released On</label>
+<select id="movie_release_date_1i" name="movie[release_date(1i)]">
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018" selected="selected">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+<option value="2022">2022</option>
+<option value="2023">2023</option>
+</select>
+<select id="movie_release_date_2i" name="movie[release_date(2i)]">
+<option value="1">January</option>
+<option value="2">February</option>
+<option value="3">March</option>
+<option value="4" selected="selected">April</option>
+<option value="5">May</option>
+<option value="6">June</option>
+<option value="7">July</option>
+<option value="8">August</option>
+<option value="9">September</option>
+<option value="10">October</option>
+<option value="11">November</option>
+<option value="12">December</option>
+</select>
+<select id="movie_release_date_3i" name="movie[release_date(3i)]">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9" selected="selected">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+
+<input type="submit" name="commit" value="Save Changes..." data-disable-with="Save Changes..." />
+</form>
+
+
+</body>
+

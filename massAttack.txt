@@ -1,0 +1,9 @@
+rails g model User name password isAdmin:boolean
+rails console
+
+User.create!(name =>'Roberto', password=>'prova')
+
+sqlite3 development.
+
+.tables;
+ Select * from users

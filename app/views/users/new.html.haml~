@@ -1,0 +1,15 @@
+%h2 Sign up
+= form_tag users_path, :method => :post do
+
+  = text_field :user, :name
+  = label :user, :name, 'Name'
+
+
+  %br/
+  = password_field :user, :password
+  = label :user, :password, 'Password'
+
+  %br/  
+
+  = submit_tag 'Submit'
+
