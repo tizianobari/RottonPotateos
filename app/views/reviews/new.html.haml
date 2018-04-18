@@ -1,0 +1,9 @@
+= form_tag movie_reviews_path, :method => :post do
+
+  = label :review, :comment, 'Comment'
+  = text_field :review, :comment
+
+  = label :review, :rating, 'Rating'
+  = select :review, :rating, ['0','1','2','3','4']
+
+  = submit_tag 'Save Changes...'
